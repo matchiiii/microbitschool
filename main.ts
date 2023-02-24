@@ -1,7 +1,20 @@
 let water = 0
-basic.forever(function () {
-    water = 0
-    music.setVolume(500)
+input.onButtonPressed(Button.A, function () {
+    music.playMelody("A B C5 - - - - - ", 320)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . # . .
+        . # # # .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . # . .
+        . . # . .
+        . # # # .
+        `)
     basic.showLeds(`
         . . . . .
         . . # . .
@@ -9,5 +22,39 @@ basic.forever(function () {
         . . # . .
         . # # # .
         `)
-    music.playMelody("C5 B C5 B C5 B C5 B ", 500)
+})
+input.onButtonPressed(Button.B, function () {
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . # . .
+        . . # . .
+        . # # # .
+        `)
+    basic.showLeds(`
+        . . # . .
+        . . . . .
+        . . # . .
+        . . # . .
+        . # # # .
+        `)
+    music.playSoundEffect(music.builtinSoundEffect(soundExpression.giggle), SoundExpressionPlayMode.UntilDone)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . # . .
+        . . # . .
+        . # # # .
+        `)
+    basic.showLeds(`
+        . . # . .
+        . . . . .
+        . . # . .
+        . . # . .
+        . # # # .
+        `)
+})
+basic.forever(function () {
+    water = 0
+    music.setVolume(500)
 })

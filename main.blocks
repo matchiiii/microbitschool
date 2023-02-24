@@ -1,7 +1,43 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=";c[tnaeV2ZhZ5U8[3m#8">water</variable></variables><block type="device_forever" id="2#J%qg5aJd@bh0k-0g6M" x="205" y="0"><statement name="HANDLER"><block type="variables_set" id="k+D%@WTiGW3-?@e`4bne"><field name="VAR" id=";c[tnaeV2ZhZ5U8[3m#8">water</field><value name="VALUE"><shadow type="math_number" id="bz|kK?On5Eq8$CJOwD^C"><field name="NUM">0</field></shadow></value><next><block type="synth_set_volume" id="p2{I;JX9,sf5[MdWbe3/"><value name="volume"><shadow type="math_number_minmax" id="y4V#sMwWUieK0fF/t+Oi"><mutation min="0" max="255" label="Volume" precision="0"></mutation><field name="SLIDER">500</field></shadow></value><next><block type="device_show_leds" id="0/R(mh%gw;-6UW@a7cc8"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=";c[tnaeV2ZhZ5U8[3m#8">water</variable></variables><block type="device_forever" id="2#J%qg5aJd@bh0k-0g6M" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="k+D%@WTiGW3-?@e`4bne"><field name="VAR" id=";c[tnaeV2ZhZ5U8[3m#8">water</field><value name="VALUE"><shadow type="math_number" id="bz|kK?On5Eq8$CJOwD^C"><field name="NUM">0</field></shadow></value><next><block type="synth_set_volume" id="p2{I;JX9,sf5[MdWbe3/"><value name="volume"><shadow type="math_number_minmax" id="y4V#sMwWUieK0fF/t+Oi"><mutation min="0" max="255" label="Volume" precision="0"></mutation><field name="SLIDER">500</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="[bgaqiQ|icT=|#`h[wJx" x="-128" y="78"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="L%|{yW75*y$iI=!v^2gp"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="%B6d58Z:IprR.vm[`w$*"><field name="LEDS">`
+        . . # . . 
+        . . . . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="soundExpression_playSoundEffect" id="#voaBV6Z^Ie*jr8Y}:*U"><field name="mode">SoundExpressionPlayMode.UntilDone</field><value name="sound"><shadow type="soundExpression_builtinSoundEffect" id="|1{O`LWq_]V@8MD_|qtH"><field name="soundExpression">soundExpression.giggle</field></shadow></value><next><block type="device_show_leds" id="uy@VNPGrN/*MX.H5L.~b"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="2R4719;/dQ09{vz{#DNF"><field name="LEDS">`
+        . . # . . 
+        . . . . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="{Ucv@*RBM.WHE_Y+t8$Z" x="256" y="89"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="playMelody" id="#}=Xm$W3KWcIob8_hHaU"><value name="melody"><shadow type="melody_editor" id="Cw]V@T.;D[GTfG;C-}ly"><field name="melody">"A B C5 - - - - - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="a1zE#E]ZD1Bkjk~,)`M-"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">320</field></shadow></value><next><block type="device_show_leds" id="0/R(mh%gw;-6UW@a7cc8"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="D3y:zm]0q?Hnt)zjt|}P"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="z}4-vQ^/nZ.0:c_XF*jm"><field name="LEDS">`
         . . . . . 
         . . # . . 
         . . # . . 
         . . # . . 
         . # # # .
-        `</field><next><block type="playMelody" id="JbbnkH9T*[?Gms0W4MeF"><value name="melody"><shadow type="melody_editor" id="|G2RXfz!3uu;UM1bl/4x"><field name="melody">"C5 B C5 B C5 B C5 B "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="4A8Osa{dYm8bmr:#6SzD"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">500</field></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
+        `</field></block></next></block></next></block></next></block></statement></block></xml>
