@@ -1,4 +1,4 @@
-##Info
+## Info
 
 This is the code for my 3d-printed plant pot, enchanced by a MicroBit board.
 
